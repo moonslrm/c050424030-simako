@@ -1,0 +1,27 @@
+/* Card lebih soft */
+.fi-card {
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
+
+/* Table */
+.fi-ta-table {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* Header tabel */
+.fi-ta-header {
+    background: linear-gradient(135deg, #1e293b, #020617);
+}
+
+/* Hover row */
+.fi-ta-row:hover {
+    background-color: rgba(99, 102, 241, 0.1);
+    transition: 0.2s;
+}
+
+/* Button primary */
+.fi-btn-primary {
+    box-shadow: 0 8px 20px rgba(99,102,241,.35);
+}
